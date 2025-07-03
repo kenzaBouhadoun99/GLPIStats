@@ -3,3 +3,5 @@ headless = true
 enableCORS = false
 enableXsrfProtection = false
 port = $PORT
+[theme]
+base = "light"
