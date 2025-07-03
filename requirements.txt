@@ -1,2 +1,10 @@
 streamlit
 pandas
+matplotlib
+seaborn
+plotly
+numpy
+networkx
+scikit-learn
+nltk
+scipy
