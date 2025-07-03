@@ -7,6 +7,8 @@ import numpy as np
 from datetime import datetime
 from collections import Counter
 import networkx as nx
+import nltk
+nltk.download('stopwords')
 from analyse_titre import (
     nettoyer_titres,
     vectoriser_titres,
@@ -18,7 +20,6 @@ from analyse_titre import (
     plot_mots_frequents,
     nettoyer
 )
-
 
 
 # Configuration de la page
