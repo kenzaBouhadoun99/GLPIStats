@@ -11,7 +11,9 @@ import nltk
 import os
 port = int(os.environ.get("PORT", 8501))
 
-nltk.download('stopwords')
+import nltk
+nltk.data.path.append("nltk_data")
+
 from analyse_titre import (
     nettoyer_titres,
     vectoriser_titres,
