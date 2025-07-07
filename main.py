@@ -8,6 +8,9 @@ from datetime import datetime
 from collections import Counter
 import networkx as nx
 import nltk
+import os
+port = int(os.environ.get("PORT", 8501))
+
 nltk.download('stopwords')
 from analyse_titre import (
     nettoyer_titres,
