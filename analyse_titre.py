@@ -17,7 +17,9 @@ import re
 
 
 # Téléchargement des stopwords français à la première exécution
-nltk.download('stopwords')
+import nltk
+nltk.data.path.append("nltk_data")
+
 
 # ------------------------------------------------------------------------------
 #  1. Nettoyage des titres
